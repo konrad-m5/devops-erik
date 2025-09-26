@@ -15,6 +15,8 @@ def about():
     return '''
     <p>This is the About Page.</p>
     <p>Go back to the <a href="/">Home Page</a>.</p>
+    <a href="https://www.python.org">Python page</a>
+    <a href="https://flask.palletsprojects.com/en/stable/">Flask</a>
     '''
 
 @app.route('/contact')
